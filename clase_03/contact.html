@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contacto</title>
+   </head>
+   <body>
+      <h2>CONTACTO</h2>
+      <p>
+         Para escribir un correo al editor de <strong>rosario3.com</strong>, hágalo llegar a
+         <a href="mailto:editor@rosario3.com">editor@rosario3.com</a>
+      </p>
+      <p>También puede enviarnos una consulta a través del siguiente formulario:</p>
+      <form>
+         <div>
+            <label for="nombre">Nombre y Apellido </label>
+            <input type="text" id="nombre">
+         </div>
+         <div>
+            <label for="email">Email  </label>
+            <input type="text" id="email">
+         </div>
+         <label for="consulta">Asunto de la consulta</label>
+         <select id="consulta" name="consulta">
+            <option value="consulta1">Consulta</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="comentario">Comentario</option>
+            <option value="reclamo">Reclamo</option>
+            <option value="otro">Otro</option>
+         </select>
+         <div>
+            <label for="consulta">Consulta:   </label>
+            <textarea id="consulta"></textarea>
+         </div>
+         <div>
+            <input type="checkbox">
+            <p>Enviarme una copia</p>
+         </div>
+         <button type="submit">Enviar</button>
+         <button type="button">Cancelar</button>
+         <button type="reset">Limpiar</button>
+      </form>
+
+      <a href="index.html">VOLVER</a>
+   </body>
+</html>
