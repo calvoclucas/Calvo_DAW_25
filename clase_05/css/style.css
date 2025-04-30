@@ -1,0 +1,80 @@
+h1,
+h2,
+h3 {
+	font-family: NotoSansDisplay-Black, "Arial Black", sans-serif;
+	color: #151E24;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 70px;
+}
+
+h2 {
+	font-size: 26px;
+	line-height: 33px;
+	font-family: NotoSansDisplay-Bold, "Arial Black", sans-serif;
+}
+
+.articulo p {
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: 0px;
+	font-family: NotoSansDisplay-Regular, Arial, sans-serif;
+	font-size: 20px;
+}
+
+.logo_pie {
+	background: #94BE1F;
+}
+
+.pie {
+	background-color: #242F37;
+}
+
+.pie p {
+	color: #FFFFFF;
+	font-family: Heebo-Regular, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.text_menu {
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+.menu {
+	background: #75C1E9;
+}
+
+.menu li {
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+.menu li a {
+	font-family: Heebo-Regular, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	color: #FFFFFF;
+	list-style: none;
+	text-decoration: none;
+}
+
+/*Tablet*/
+@media only screen and (min-width: 480px) and (max-width: 768px)
+{
+	h1{
+		color: #94BE1F;
+	}
+}
+
+/*Desktop*/
+@media only screen and (min-width: 768px) 
+{
+	h1{
+		color: #242F37;
+	}
+} 
