@@ -8,3 +8,6 @@ Agrego media queries a la noticia principal
 
 ## Clase 06
 Agrego las propiedades de Flexbox a la noticia principal
+
+## Link de GitHub Pages
+https://calvoclucas.github.io/Calvo_DAW_25/
