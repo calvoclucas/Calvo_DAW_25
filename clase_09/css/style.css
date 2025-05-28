@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Sans Display', Arial, sans-serif;
+  background-color: #94BE1F;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.menu {
+  background: #92BF30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  width: 100%;
+}
+
+.menu-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_mobile {
+  height: 50px;
+  display: inline;
+}
+
+.logo_desktop {
+  height: 50px;
+  display: none;
+}
+
+.text_menu {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+  display: none;
+}
+
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 30px;
+}
+
+.menu-img {
+	height: 30px;
+	margin-right: 10px;
+}
+
+.subtitulo {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 30px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input.error-border {
+  border: 2px solid red;
+}
+
+
+input.valid-border {
+   border: 2px solid green;
+}
+
+
+.error {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  height: 14px;
+  margin-top: 4px;
+}
+
+button {
+  margin: 32px auto 0;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #94BE1F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .half {
+    width: 48%;
+  }
+
+  .text_menu {
+    display: inline;
+  }
+
+  .logo_mobile {
+    display: none;
+  }
+
+  .logo_desktop {
+    display: inline;
+  }
+
+  .menu {
+    background-color: #75C1E9;
+    padding: 16px 10%;
+  }
+}
+
+@media (max-width: 767px) {
+  .half {
+    width: 100%;
+  }
+
+  .text_menu {
+    display: none;
+  }
+
+  .logo_mobile {
+    display: inline;
+  }
+
+  .logo_desktop {
+    display: none;
+  }
+
+}
