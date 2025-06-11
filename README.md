@@ -22,6 +22,8 @@ Se agrega el formulario validando los campos con JavaScript
 ## Clase 10
 Se envian los datos cargados en el formulario a un servidor web 
 
+## Clase 11
+Página en la cual se realicen llamados a la API REST
 
 ## Link de GitHub Pages
 https://calvoclucas.github.io/Calvo_DAW_25/

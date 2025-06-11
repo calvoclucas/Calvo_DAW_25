@@ -1,9 +1,10 @@
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Noto Sans Display','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #f4f6f8;
   color: #333;
   padding: 32px;
   margin: 0;
+  font-size: 20px;
 }
 
 h1 {
@@ -22,23 +23,29 @@ ul {
 li {
   margin-bottom: 16px;
   background: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  overflow: hidden;
 }
 
 li:hover {
-  background: #e8f0fe;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 a {
   display: block;
-  padding: 16px;
+  padding: 16px 20px;
   color: #1a73e8;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 900;
+  background: linear-gradient(to right, #ffffff 0%, #f8fbff 100%);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a:hover {
-  text-decoration: underline;
+  background-color: #e8f0fe;
+  color: #0c57d6;
+  text-decoration: none;
 }
