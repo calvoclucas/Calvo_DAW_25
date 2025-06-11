@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap" rel="stylesheet" />
+    <title>Rick and Morty</title>
+</head>
+
+<body>
+    <h1>Rick and Morty Characters</h1>
+    <section class="filters">
+        <form id="filter-form">
+            <input type="text" id="name" placeholder="Nombre" />
+            <input type="text" id="status" placeholder="Estado (alive, dead, unknown)" />
+            <input type="text" id="species" placeholder="Especie" />
+            <input type="text" id="type" placeholder="Tipo" />
+            <input type="text" id="gender" placeholder="Género (female, male, genderless, unknown)" />
+            <button type="submit">Buscar</button>
+        </form>
+    </section>
+    <button id="get-all">Personajes</button>
+    <section id="results"></section>
+    <div id="pagination"></div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

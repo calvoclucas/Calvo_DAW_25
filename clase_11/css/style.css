@@ -1,0 +1,136 @@
+body {
+    font-family: 'Noto Sans Display', Arial, sans-serif;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url("../images/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+    ;
+    text-shadow: 1px 1px 3px #000000;
+}
+
+.filters {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+#get-all {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2acfcf;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0 3px 6px #29bebe;
+    transition: background-color 0.3s ease;
+}
+
+
+
+input {
+    margin: 5px;
+    padding: 8px 12px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: #262626;
+    color: #eeeeee;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
+input:focus {
+    outline: none;
+    background-color: #4d4d4d;
+    box-shadow: 0 0 5px #f0a500;
+}
+
+button {
+    padding: 8px 20px;
+    margin-top: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #2acfcf;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 0 3px 6px #27bebe;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #27bebe;
+    box-shadow: 0 5px 12px #239999;
+    color: #e0f7f7;
+}
+
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.card {
+    background-color: #1a1a1a;
+    backdrop-filter: blur(8px);
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #000000;
+    width: 220px;
+    text-align: center;
+    color: #eeeeee;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px #f0a500;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px #000000;
+}
+
+#pagination {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.page-btn {
+    margin: 8px;
+    padding: 10px 18px;
+    background-color: #2acfcf;
+    color: #111;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 8px #1baaaa;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.page-btn:hover {
+    background-color: #27bebe;
+    transform: scale(1.05);
+    color: #fff;
+}
