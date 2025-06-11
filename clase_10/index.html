@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="css/normalize.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display&display=swap" rel="stylesheet" />
+      <title>Suscripción de Noticias</title>
+   </head>
+   <body>
+      <nav class="menu">
+         <div class="menu-left">
+            <img src="images/ole.png" class="logo_mobile" alt="Diario Olé" />
+            <img src="images/logo_arg.png" class="logo_desktop" alt="Diario Olé" />
+            <p class="text_menu">Selección Argentina</p>
+         </div>
+         <img src="images/logo_hamb.png" alt="Menú" class="menu-img" />
+      </nav>
+      <div class="container">
+         <h1 class="logo"><img src="images/ole.png" alt="Logo Diario Olé" /></h1>
+         <h2 class="subtitulo">Suscripción de Noticias</h2>
+         <main>
+            <h2 id="form-title">Hola,</h2>
+            <form id="subscription-form" novalidate>
+               <div class="form-group half">
+                  <label for="fullName">Nombre completo:</label>
+                  <input type="text" id="fullName" />
+                  <span class="error" id="error-fullName"></span>
+               </div>
+               <div class="form-group half">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" />
+                  <span class="error" id="error-email"></span>
+               </div>
+               <div class="form-group half">
+                  <label for="password">Contraseña:</label>
+                  <input type="password" id="password" />
+                  <span class="error" id="error-password"></span>
+               </div>
+               <div class="form-group half">
+                  <label for="repeatPassword">Repetir contraseña:</label>
+                  <input type="password" id="repeatPassword" />
+                  <span class="error" id="error-repeatPassword"></span>
+               </div>
+               <div class="form-group half">
+                  <label for="age">Edad:</label>
+                  <input type="number" id="age" />
+                  <span class="error" id="error-age"></span>
+               </div>
+               <div class="form-group half">
+                  <label for="phone">Teléfono:</label>
+                  <input type="text" id="phone" />
+                  <span class="error" id="error-phone"></span>
+               </div>
+               <div class="form-group half">
+                  <label for="address">Dirección:</label>
+                  <input type="text" id="address" />
+                  <span class="error" id="error-address"></span>
+               </div>
+               <div class="form-group half">
+                  <label for="city">Ciudad:</label>
+                  <input type="text" id="city" />
+                  <span class="error" id="error-city"></span>
+               </div>
+               <div class="form-group half">
+                  <label for="zip">Código Postal:</label>
+                  <input type="text" id="zip" />
+                  <span class="error" id="error-zip"></span>
+               </div>
+               <div class="form-group half">
+                  <label for="dni">DNI:</label>
+                  <input type="text" id="dni" />
+                  <span class="error" id="error-dni"></span>
+               </div>
+               <button type="submit">Enviar</button>
+            </form>
+         </main>
+      </div>
+      <div id="modal" class="modal hidden">
+      <div class="modal-content">
+         <span id="close-modal" class="close-button">&times;</span>
+         <div id="modal-message"></div>
+      </div>
+      </div>
+      <script src="js/formulario.js"></script>
+   </body>
+</html>

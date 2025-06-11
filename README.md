@@ -19,5 +19,9 @@ Se agregan los ejercicios de JavaScript
 ## Clase 09
 Se agrega el formulario validando los campos con JavaScript
 
+## Clase 10
+Se envian los datos cargados en el formulario a un servidor web 
+
+
 ## Link de GitHub Pages
 https://calvoclucas.github.io/Calvo_DAW_25/
